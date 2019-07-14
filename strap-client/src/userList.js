@@ -35,9 +35,6 @@ class UserList extends React.Component{
         return(
             <div>
             <h2>listing users:{this.state.users.length}</h2>
-            
-          
-                
             <Table dark>
                 <thead>
                     <tr>
@@ -101,5 +98,4 @@ class UserList extends React.Component{
         )
     }
 }
-
 export default UserList
